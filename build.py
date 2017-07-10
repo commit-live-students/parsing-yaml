@@ -29,10 +29,13 @@ def generate_dataframe(match_code):
     ref_innings = pd.DataFrame(all_data)
     return ref_innings
 
+# Question 1: Write a function that returns how many runs were scored by each batsman?
+
 def runs_scored(match_code):
     df = generate_dataframe(match_code)
     return df.groupby(['Batsmans','Team']).agg({'Runs_Scored':np.sum})
 
+# Question 2: Write a function that returns how many balls were faced by each batsman?
 
 def balls_faced(match_code):
     df = generate_dataframe(match_code)
@@ -41,6 +44,7 @@ def balls_faced(match_code):
     df3 = df2.rename(columns={'Runs_Scored':'Balls_Faced'})
     return df3
 
+# Question 3: Write a function that returns how many balls were balled by each bowler?
 
 def balls_bowled(match_code):
     df = generate_dataframe(match_code)
@@ -48,21 +52,25 @@ def balls_bowled(match_code):
     df2 = pd.DataFrame(df1)
     return df2.rename(columns={'Balls':'Balls_Bowled'})
 
+# Question 4: Write a function that returns how many runs were conceded by each bowler?
 
 def runs_conceded(match_code):
     df = generate_dataframe(match_code)
     return df.groupby(['Bowler','Team']).agg({'Runs_Conceded':np.sum})
 
+# Question 5: Write a function that returns name of the teams.
 
 def get_teams(match_code):
     data = generate_data(match_code)
     return data['info']['teams']
 
+# Question 6: Write a function that returns who batted first?
 
 def get_first_batsman(match_code):
     data = generate_data(match_code)
     return data['innings'][0]['1st innings']['deliveries'][0][0.1]['batsman']
 
+# Question 7: Write a function that returns who won?
 
 def get_winner(match_code):
     data = generate_data(match_code)
