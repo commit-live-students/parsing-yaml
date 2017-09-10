@@ -1,0 +1,64 @@
+                                             Runs_Scored
+Batsman         Team                                    
+AA Noffke       Royal Challengers Bangalore            9
+B Akhil         Royal Challengers Bangalore            0
+BB McCullum     Kolkata Knight Riders                158
+CL White        Royal Challengers Bangalore            6
+DJ Hussey       Kolkata Knight Riders                 12
+JH Kallis       Royal Challengers Bangalore            8
+MV Boucher      Royal Challengers Bangalore            7
+Mohammad Hafeez Kolkata Knight Riders                  5
+P Kumar         Royal Challengers Bangalore           18
+R Dravid        Royal Challengers Bangalore            2
+RT Ponting      Kolkata Knight Riders                 20
+SB Joshi        Royal Challengers Bangalore            3
+SC Ganguly      Kolkata Knight Riders                 10
+V Kohli         Royal Challengers Bangalore            1
+W Jaffer        Royal Challengers Bangalore            6
+Z Khan          Royal Challengers Bangalore            3
+            Batsman                         Team  Balls_Faced
+0         AA Noffke  Royal Challengers Bangalore           12
+1           B Akhil  Royal Challengers Bangalore            2
+2       BB McCullum        Kolkata Knight Riders           77
+3          CL White  Royal Challengers Bangalore           10
+4         DJ Hussey        Kolkata Knight Riders           12
+5         JH Kallis  Royal Challengers Bangalore            7
+6        MV Boucher  Royal Challengers Bangalore           11
+7   Mohammad Hafeez        Kolkata Knight Riders            3
+8           P Kumar  Royal Challengers Bangalore           17
+9          R Dravid  Royal Challengers Bangalore            3
+10       RT Ponting        Kolkata Knight Riders           20
+11         SB Joshi  Royal Challengers Bangalore            8
+12       SC Ganguly        Kolkata Knight Riders           12
+13          V Kohli  Royal Challengers Bangalore            5
+14         W Jaffer  Royal Challengers Bangalore           18
+15           Z Khan  Royal Challengers Bangalore            8
+        Bowler                        BTeam  Balls_Bowled
+0    AA Noffke  Royal Challengers Bangalore            25
+1   AB Agarkar        Kolkata Knight Riders            28
+2     AB Dinda        Kolkata Knight Riders            20
+3     CL White  Royal Challengers Bangalore             7
+4     I Sharma        Kolkata Knight Riders            19
+5    JH Kallis  Royal Challengers Bangalore            25
+6    LR Shukla        Kolkata Knight Riders             9
+7      P Kumar  Royal Challengers Bangalore            25
+8     SB Joshi  Royal Challengers Bangalore            18
+9   SC Ganguly        Kolkata Knight Riders            25
+10      Z Khan  Royal Challengers Bangalore            24
+                                        Runs_Conceded
+Bowler     BTeam                                     
+AA Noffke  Royal Challengers Bangalore             41
+AB Agarkar Kolkata Knight Riders                   25
+AB Dinda   Kolkata Knight Riders                    9
+CL White   Royal Challengers Bangalore             24
+I Sharma   Kolkata Knight Riders                   13
+JH Kallis  Royal Challengers Bangalore             52
+LR Shukla  Kolkata Knight Riders                   12
+P Kumar    Royal Challengers Bangalore             41
+SB Joshi   Royal Challengers Bangalore             26
+SC Ganguly Kolkata Knight Riders                   23
+Z Khan     Royal Challengers Bangalore             38
+
+The Teams Played: ['Kolkata Knight Riders', 'Royal Challengers Bangalore']
+The First Batman: SC Ganguly
+The winner: Kolkata Knight Riders
